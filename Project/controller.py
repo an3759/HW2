@@ -9,7 +9,7 @@ hello_bp = Blueprint('hello_controller', __name__)
 def hello():
     # 1. 產生資料物件
     greeting_object = Greeting(
-        message="Hello, GitHub Actions! I'm broken.",
+        message="Hello, GitHub Actions!",
         generatedAt=datetime.utcnow().isoformat() + "Z"
     )
     
